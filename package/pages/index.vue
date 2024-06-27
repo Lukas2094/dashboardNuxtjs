@@ -10,11 +10,11 @@ import TheActivityTimeline from '@/components/dashboard/TheActivityTimeline.vue'
 <template>
   <v-row>
     <!---SalesOverview--->
-    <v-col cols="4" sm="4" lg="8">
+    <v-col cols="12" sm="12" lg="12">
       <TheSalesOverview />
     </v-col>
     <!---Blog Card--->
-    <v-col cols="4" sm="4" lg="4">
+    <v-col cols="12" sm="12" lg="12">
       <BlogCard />
     </v-col>
   </v-row>
