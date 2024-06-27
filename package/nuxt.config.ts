@@ -7,7 +7,7 @@ export default defineNuxtConfig({
   app: {
     head: {
       title:
-        "MaterialPro Free Nuxt 3 Dashboard",
+        "Dashboard Nuxt.js 3",
     },
   },
   build: {

@@ -2,7 +2,7 @@
 import { ref, onMounted } from "vue";
 import { useDisplay } from "vuetify";
 useHead({
-    title: "MaterialPro Free NuxtJs 3  Dashboard",
+    title: " Dashboard",
 });
 const drawer = ref(undefined || true);
 const innerW = window.innerWidth;
