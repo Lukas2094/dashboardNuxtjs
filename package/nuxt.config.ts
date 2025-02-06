@@ -1,6 +1,6 @@
 import vuetify from "vite-plugin-vuetify";
 export default defineNuxtConfig({
-  ssr: false,
+  ssr: true,
   typescript: {
     shim: false,
   },
@@ -12,6 +12,9 @@ export default defineNuxtConfig({
   },
   build: {
     transpile: ["vuetify"],
+  },
+  vite: {
+    plugins: [vuetify()],
   },
   nitro: {
     serveStatic: true,
